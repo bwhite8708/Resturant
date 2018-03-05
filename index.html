@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>YRN Blvd Lounge</title>
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Owl Carousel Styles -->
+ <link href="css/owl.carousel.min.css" rel="stylesheet">
+ <link href="css/owl.theme.default.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div id="logo">
+        <img src=img/logo.jpg height=150px width=200px>
+      </div>
+      <div id="name">
+        <h1>YRN Blvd Lounge</h1>
+      </div>
+    </header>
+
+    <main>
+      <div id="description">
+        <h2>About Us</h2>
+        <p>YRN Blvd Lounge features lush sofas and a magnificent 18-foot (5.5-metre) illuminated onyx bar. Also highlighting the room is a large backlit wine display containing over 1,000 bottles. This is the perfect spot for people-watching in Beverly Hills or for a romantic night out on the town. Live music is presented Thursday through Saturday evenings. Visit the official website of THE Blvd for an updated calendar of events.Classic Beverly Hills luxury, where steaks like the Chef's Cut New York Strip or Ribeye make the ideal celebratory meal. They might not be re-inventing the wheel, but the service and presentation of the steaks are nearly unparalleled. The 48 oz Porterhouse steak is the one to order if you're hungry. </p>
+
+        <h3>The Spa</h3>
+        <p>Recently awarded the prestigious and highly coveted Forbes Travel Guide Five-Star Award, The Spa at Beverly Wilshire is an oasis of beauty and serenity in the heart of Beverly Hills, delivering a sensory journey that calms and revitalizes the mind, body and spirit. Spa experiences are entirely customizable with options ranging from a stress relieving massage with warm basalt stones and handmade Birchwood sticks to a signature anti-ageing treatment using microcurrents and light therapy.</p>
+      </div>
+
+      <div id="Menu">menu</div>
+
+
+
+
+      <div id="Hours">
+        <ul>Hours</ul>
+        <li>Monday-8:00am - 11:00pm</li>
+        <li>Tuesday-8:00am - 1:00am</li>
+        <li>Wednesday-8:00am - 2:00am</li>
+        <li>Thursday-9:00am -12:00m</li>
+        <li>Friday-10:00am - 2:00am</li>
+        <li>Saturday-10:00am - 12:00m</li>
+        <li>Sunday- 10:00am - 12:00m</li>
+      </div>
+
+        </ul>
+
+
+      <div id="carousel">
+        <div class="owl-carousel owl-theme">
+          <div><img src="img/salad.jpg" alt=""></div>
+          <div><img src="img/steak.jpg" alt="steak"></div>
+          <div><img src="img/pancakes.jpg" alt="pancakes"></div>
+          <div><img src="img/cocktail.jpg" alt="cocktail.jpg"></div>
+          <div><img src="img/cake.jpg" alt="cake"></div>
+        </div>
+      </div>
+
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.8724911285215!2d-118.33475403638528!3d34.101672878138665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf3b56961729%3A0x60c5547cf66d21c7!2sMike&#39;s+Smoke+Shop+%26+Vapor+Bar!5e0!3m2!1sen!2sus!4v1520264715208" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div id="win">
+        <form action="thanks.html">
+      Name:
+      <input type="text" name="name">
+      <br>
+      E-mail Address:
+      <input type="text" name="email">
+      <br>
+
+
+      <input type="submit" value="Submit">
+    </form>
+      </div>
+
+    </main>
+
+    <footer>
+      <div id="credits">website by braylyn w</div>
+      <div id="social">Social Site</div>
+      <div id="contact">655-724-5477</div>
+
+
+    </footer>
+
+  </div>
+  <!-- first load jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <!-- owl carousel stuff -->
+  <script src="js/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.owl-carousel').owlCarousel({
+          autoplay: true,
+          autoplayHoverPause: true,
+          autoplayTimeout: 2500,
+          dots: false,
+          items: 3,
+          loop: true,
+          margin: 10,
+          nav: false
+      })
+    });
+  </script>
+
+
+
+
+
+</body>
+</html>

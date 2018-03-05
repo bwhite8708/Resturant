@@ -1,0 +1,268 @@
+/* Color Palette
+  White: #ffffff;
+  Black: #000000;
+  Medium Gray: #999999;
+  Light Gray: #dddddd;
+  Light blue: #99ffff;
+*/
+
+
+/*********** Begin Layout Styles ***********/
+body {
+ color: #ff0000;
+ background-color: #000000
+
+}
+
+div.container {
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px; /* disable this line if you want full-width layouts */
+
+}
+
+header, main, footer {
+  padding: 15px;
+  margin: 15px;
+}
+
+/* phones (base layout is mobile-first) */
+header {
+  border: 3px solid #990000; /* disable this line once layout works */
+  display: grid;
+  color: #ddca61;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "logo"
+    "name"
+}
+
+main {
+  border: 3px solid #009900; /* disable this line once layout works */
+  display: grid;
+  grid-column-gap: 15px;
+  color: #ddca61;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "description"
+    "menu"
+    "carousel"
+    "hours"
+    "map"
+    "gift card balance";
+}
+
+footer {
+  border: 3px solid #000099; /* disable this line once layout works */
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "contact"
+    "social"
+    "credits";
+}
+
+/* tablets and small laptops */
+@media (min-width: 600px) {
+
+  header {
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+      "logo name";
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "description menu"
+      "carousel carousel"
+      "win hours"
+      "map map";
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "contact social credits";
+  }
+}
+
+/* desktops */
+@media (min-width: 900px) {
+  header {
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+      "logo name";
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "description description map"
+      "hours win menu"
+      "carousel carousel carousel";
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "contact social credits";
+  }
+}
+
+div {
+  /* border: 1px solid #999999; /* disable this line once layout works */
+  /* text-align: center; /* disable this line once layout works */
+}
+
+main div {
+  /*   min-height: 80px; /* disable this line once layout works */
+}
+
+div#logo {
+  grid-area: logo;
+}
+
+div#name {
+  grid-area: name;
+}
+
+div#description {
+  grid-area: description;
+}
+
+div#Menu {
+  grid-area: menu;
+}
+
+div#hours {
+  grid-area: hours;
+}
+
+div#carousel {
+  grid-area: carousel;
+  overflow: hidden;
+}
+
+div#map{
+  grid-area: map;
+}
+
+div#win {
+  grid-area: win;
+}
+div#credits {
+  grid-area: credits;
+}
+
+div#social {
+  grid-area: social;
+}
+
+div#contact {
+  grid-area: contact;
+}
+/*********** End Layout Styles ***********/
+
+
+/*********** Begin Content Styles ***********/
+
+/* Headings */
+h1 {
+    font-size: 75px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+/* Paragraphs and lists */
+
+p {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+/* tables */
+
+table {
+
+}
+
+caption {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+/* images */
+img {
+
+}
+
+/* links */
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+/* forms */
+
+
+
+/*********** End Content Styles ***********/
