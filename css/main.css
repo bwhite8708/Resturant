@@ -86,6 +86,14 @@ footer {
       "map map";
   }
 
+  main.menu-page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "page-name page-name"
+      "Appetizers Entrees"
+      "Drinks Desserts";
+  }
+
   footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -107,6 +115,14 @@ footer {
       "description description map"
       "hours win menu"
       "carousel carousel carousel";
+  }
+
+  main.menu-page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "page-name page-name"
+      "Appetizers Entrees"
+      "Drinks Desserts";
   }
 
   footer {
@@ -168,6 +184,27 @@ div#social {
 div#contact {
   grid-area: contact;
 }
+
+div#page-name {
+  grid-area: page-name;
+}
+
+div#Appetizers {
+  grid-area: Appetizers;
+}
+
+div#Entrees {
+  grid-area: Entrees;
+}
+
+div#Drinks {
+  grid-area: Drinks;
+}
+
+div#Desserts {
+  grid-area: Desserts;
+}
+
 /*********** End Layout Styles ***********/
 
 
